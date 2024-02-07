@@ -16,17 +16,25 @@
             text-align: center;
             padding: 2em;
             background-color: #333;
-            color: red;
+            color: #fff;
         }
 
         section {
-            text-align: center;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             padding: 20px;
         }
 
-        section img {
-            max-width: 100%;
-            height: auto;
+        .project {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
         }
     </style>
 </head>
@@ -36,26 +44,29 @@
         <h1>Your Website Header</h1>
     </header>
 
-    <section id="project1">
-        <h2>Project 1</h2>
-        <img src="project1-image.jpg" alt="Project 1 Image">
-        <!-- Link or additional content for Project 1 goes here -->
-        <p>Project 1 description or link.</p>
+    <section>
+        <div class="project">
+            <h2>Project 1</h2>
+            <!-- Content for Project 1 goes here -->
+            <img src="project1.jpg" alt="Project 1 Image" width="200">
+        </div>
+
+        <div class="project">
+            <h2>Project 2</h2>
+            <!-- Content for Project 2 goes here -->
+            <img src="project2.jpg" alt="Project 2 Image" width="200">
+        </div>
+
+        <div class="project">
+            <h2>Project 3</h2>
+            <!-- Content for Project 3 goes here -->
+            <img src="project3.jpg" alt="Project 3 Image" width="200">
+        </div>
     </section>
 
-    <section id="project2">
-        <h2>Project 2</h2>
-        <img src="project2-image.jpg" alt="Project 2 Image">
-        <!-- Link or additional content for Project 2 goes here -->
-        <p>Project 2 description or link.</p>
-    </section>
-
-    <section id="project3">
-        <h2>Project 3</h2>
-        <img src="project3-image.jpg" alt="Project 3 Image">
-        <!-- Link or additional content for Project 3 goes here -->
-        <p>Project 3 description or link.</p>
-    </section>
+    <footer>
+        <p>&copy; 2024 Your Simple Website</p>
+    </footer>
 
 </body>
 </html>
