@@ -1,15 +1,23 @@
-/* style.css */
+
+header {
+    text-align: center;
+    padding: 2em;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Dancing Script', cursive; /* Example artistic font for the header */
+    letter-spacing: 2px;                    /* Add letter spacing for an artistic touch */
+}
 
 footer {
     background-color: #caefaf;
     text-align: center;
-    padding: 1em;
+    padding: 2em;                            /* Increased padding for a more prominent footer */
     margin-top: 200px;
-    font-family: 'Brush Script MT', cursive; /* Example artistic font */
+    font-family: 'Brush Script MT', cursive; /* Example artistic font for the footer */
     color: #fff;
 }
 
-/* Additional styles for the email link */
+
 footer a {
     color: #fff;
     text-decoration: none;
@@ -19,4 +27,6 @@ footer a {
 
 footer a:hover {
     border-bottom: 2px solid #fff;
+    color: #ffc107;                        /* Change link color on hover for emphasis */
 }
+
