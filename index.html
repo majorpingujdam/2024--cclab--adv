@@ -21,6 +21,7 @@
 
         section {
             display: flex;
+            flex-wrap: wrap; /* Allow projects to wrap to the next line */
             justify-content: space-around;
             align-items: center;
             padding: 20px;
@@ -28,6 +29,7 @@
 
         .project {
             text-align: center;
+            margin-bottom: 20px; /* Add margin between projects */
         }
 
         footer {
@@ -41,7 +43,7 @@
 <body>
 
     <header>
-        <h1>Your Website Header</h1>
+        <h1>Onyx Gallery</h1>
     </header>
 
     <section>
@@ -62,11 +64,18 @@
             <!-- Content for Project 3 goes here -->
             <img src="project3.jpg" alt="Project 3 Image" width="200">
         </div>
+
+        <div class="project">
+            <h2>Project 4</h2>
+            <!-- Content for Project 4 goes here -->
+            <img src="project4.jpg" alt="Project 4 Image" width="200">
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Your Simple Website</p>
+        <p>&copy; owenchisan@gmail.com</p>
     </footer>
 
 </body>
 </html>
+
