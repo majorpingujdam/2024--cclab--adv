@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Onyx Gallery</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,21 +13,22 @@
         }
 
         header {
+            text-align: center;
+            padding: 2em;
             background-color: #333;
             color: #fff;
-            text-align: center;
-            padding: 1em;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            background-color: #555;
-            padding: 0.5em;
         }
 
         section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
             padding: 20px;
+        }
+
+        .project {
+            text-align: center;
+            margin: 10px; /* Add margin for better spacing */
         }
 
         footer {
@@ -35,9 +36,6 @@
             color: #fff;
             text-align: center;
             padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
         }
     </style>
 </head>
@@ -47,35 +45,24 @@
         <h1>Onyx Gallery</h1>
     </header>
 
-    <nav>
-        <a href="#main">Main Page</a>
-        <a href="#project1">Project 1</a>
-        <a href="#project2">Project 2</a>
-        <a href="#project3">Project 3</a>
-    </nav>
+    <section>
+        <div class="project">
+            <h2>Project 1</h2>
+            <!-- Replace with the actual path to your image for Project 1 -->
+            <img src="path/to/project1.jpg" alt="Project 1 Image" width="200">
+        </div>
 
-    <section id="main">
-        <h2>Main Page</h2>
-        <!-- Content for the main page goes here -->
-        <p>This is the main page content.</p>
-    </section>
+        <div class="project">
+            <h2>Project 2</h2>
+            <!-- Replace with the actual path to your image for Project 2 -->
+            <img src="path/to/project2.jpg" alt="Project 2 Image" width="200">
+        </div>
 
-    <section id="project1">
-        <h2>Project 1</h2>
-        <!-- Content for Project 1 goes here -->
-        <p>This is the content for Project 1.</p>
-    </section>
-
-    <section id="project2">
-        <h2>Project 2</h2>
-        <!-- Content for Project 2 goes here -->
-        <p>This is the content for Project 2.</p>
-    </section>
-
-    <section id="project3">
-        <h2>Project 3</h2>
-        <!-- Content for Project 3 goes here -->
-        <p>This is the content for Project 3.</p>
+        <div class="project">
+            <h2>Project 3</h2>
+            <!-- Replace with the actual path to your image for Project 3 -->
+            <img src="path/to/project3.jpg" alt="Project 3 Image" width="200">
+        </div>
     </section>
 
     <footer>
