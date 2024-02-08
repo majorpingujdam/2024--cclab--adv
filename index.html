@@ -38,7 +38,7 @@
         .project2 img {
             max-width: 100%;
             max-height: 100%; /* Make sure the image does not exceed the height of the .project div */
-            cursor: pointer; /* Change cursor to indicate clickable */
+            cursor: pointer; /* Change cursor to indicate it's clickable */
         }
 
         footer {
@@ -51,6 +51,11 @@
 
         .back-button {
             margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            display: inline-block;
         }
     </style>
 </head>
@@ -61,35 +66,44 @@
     </header>
 
     <section>
-        <div class="project" onclick="location.href='project1.html';">
+        <div class="project">
             <h2>Sea-u</h2>
             <!-- Replace with the actual path to your image for Project 1 -->
-            <img src="mirrorsea.jpg" alt="Project 1 Image">
+            <a href="mirrorsea.jpg" target="_blank">
+                <img src="mirrorsea.jpg" alt="Project 1 Image">
+            </a>
         </div>
 
-        <div class="project" onclick="location.href='project2.html';">
+        <div class="project">
             <h2>Harmful?</h2>
             <!-- Replace with the actual path to your image for Project 2 -->
-            <img src="mold.jpg" alt="Project 2 Image">
+            <a href="mold.jpg" target="_blank">
+                <img src="mold.jpg" alt="Project 2 Image">
+            </a>
         </div>
 
-        <div class="project" onclick="location.href='project3.html';">
+        <div class="project">
             <h2>Oasiss</h2>
             <!-- Replace with the actual path to your image for Project 3 -->
-            <img src="rainforest.jpg" alt="Project 3 Image">
+            <a href="rainforest.jpg" target="_blank">
+                <img src="rainforest.jpg" alt="Project 3 Image">
+            </a>
         </div>
     </section>
 
     <section>
-        <div class="project2" onclick="location.href='project4.html';">
+        <div class="project2">
             <h2>Absurd Industry</h2>
             <!-- Replace with the actual path to your image for Project 4 -->
-            <img src="steel.jpg" alt="Project 4 Image">
+            <a href="steel.jpg" target="_blank">
+                <img src="steel.jpg" alt="Project 4 Image">
+            </a>
         </div>
     </section>
 
     <footer>
         <p>owenchisan@gmail.com</p>
+        <a href="index.html" class="back-button">Back to Main Page</a>
     </footer>
 
 </body>
